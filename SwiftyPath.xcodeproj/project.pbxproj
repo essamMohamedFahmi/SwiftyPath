@@ -8,12 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		CEA4B4EC252675C300149A01 /* SwiftyPath.h in Headers */ = {isa = PBXBuildFile; fileRef = CEA4B4EA252675C300149A01 /* SwiftyPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEA4B50B2526766800149A01 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA4B4F52526766700149A01 /* Media.xcassets */; };
+		CEA4B50C2526766800149A01 /* UserPathProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B4F82526766700149A01 /* UserPathProtocols.swift */; };
+		CEA4B50D2526766800149A01 /* PickPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B4FA2526766700149A01 /* PickPoint.swift */; };
+		CEA4B50E2526766800149A01 /* Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B4FB2526766700149A01 /* Path.swift */; };
+		CEA4B50F2526766800149A01 /* PickTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B4FE2526766700149A01 /* PickTableViewCell.swift */; };
+		CEA4B5102526766800149A01 /* PickTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA4B4FF2526766700149A01 /* PickTableViewCell.xib */; };
+		CEA4B5112526766800149A01 /* UserPathView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA4B5012526766700149A01 /* UserPathView.xib */; };
+		CEA4B5122526766800149A01 /* UserPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B5022526766700149A01 /* UserPathView.swift */; };
+		CEA4B5132526766800149A01 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B5052526766700149A01 /* DesignableButton.swift */; };
+		CEA4B5142526766800149A01 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B5062526766700149A01 /* DesignableView.swift */; };
+		CEA4B5152526766800149A01 /* TableViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B5082526766700149A01 /* TableViewEx.swift */; };
+		CEA4B5162526766800149A01 /* XIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B5092526766700149A01 /* XIB.swift */; };
+		CEA4B5172526766800149A01 /* ApplicationEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B50A2526766700149A01 /* ApplicationEx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CEA4B4E7252675C300149A01 /* SwiftyPath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyPath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA4B4EA252675C300149A01 /* SwiftyPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyPath.h; sourceTree = "<group>"; };
 		CEA4B4EB252675C300149A01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA4B4F52526766700149A01 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		CEA4B4F82526766700149A01 /* UserPathProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPathProtocols.swift; sourceTree = "<group>"; };
+		CEA4B4FA2526766700149A01 /* PickPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickPoint.swift; sourceTree = "<group>"; };
+		CEA4B4FB2526766700149A01 /* Path.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Path.swift; sourceTree = "<group>"; };
+		CEA4B4FE2526766700149A01 /* PickTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickTableViewCell.swift; sourceTree = "<group>"; };
+		CEA4B4FF2526766700149A01 /* PickTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickTableViewCell.xib; sourceTree = "<group>"; };
+		CEA4B5012526766700149A01 /* UserPathView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserPathView.xib; sourceTree = "<group>"; };
+		CEA4B5022526766700149A01 /* UserPathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPathView.swift; sourceTree = "<group>"; };
+		CEA4B5052526766700149A01 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		CEA4B5062526766700149A01 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		CEA4B5082526766700149A01 /* TableViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewEx.swift; sourceTree = "<group>"; };
+		CEA4B5092526766700149A01 /* XIB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XIB.swift; sourceTree = "<group>"; };
+		CEA4B50A2526766700149A01 /* ApplicationEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationEx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +72,111 @@
 		CEA4B4E9252675C300149A01 /* SwiftyPath */ = {
 			isa = PBXGroup;
 			children = (
+				CEA4B4F32526763900149A01 /* Supporting Files */,
+				CEA4B4F42526766700149A01 /* Resources */,
+				CEA4B4F62526766700149A01 /* Component */,
+				CEA4B5032526766700149A01 /* Core */,
+			);
+			path = SwiftyPath;
+			sourceTree = "<group>";
+		};
+		CEA4B4F32526763900149A01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				CEA4B4EA252675C300149A01 /* SwiftyPath.h */,
 				CEA4B4EB252675C300149A01 /* Info.plist */,
 			);
-			path = SwiftyPath;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA4B4F42526766700149A01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B4F52526766700149A01 /* Media.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CEA4B4F62526766700149A01 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B4F72526766700149A01 /* Protocol */,
+				CEA4B4F92526766700149A01 /* Model */,
+				CEA4B4FC2526766700149A01 /* View */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		CEA4B4F72526766700149A01 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B4F82526766700149A01 /* UserPathProtocols.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		CEA4B4F92526766700149A01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B4FA2526766700149A01 /* PickPoint.swift */,
+				CEA4B4FB2526766700149A01 /* Path.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEA4B4FC2526766700149A01 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B4FD2526766700149A01 /* Pick Cell */,
+				CEA4B5002526766700149A01 /* User Path */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEA4B4FD2526766700149A01 /* Pick Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B4FE2526766700149A01 /* PickTableViewCell.swift */,
+				CEA4B4FF2526766700149A01 /* PickTableViewCell.xib */,
+			);
+			path = "Pick Cell";
+			sourceTree = "<group>";
+		};
+		CEA4B5002526766700149A01 /* User Path */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B5012526766700149A01 /* UserPathView.xib */,
+				CEA4B5022526766700149A01 /* UserPathView.swift */,
+			);
+			path = "User Path";
+			sourceTree = "<group>";
+		};
+		CEA4B5032526766700149A01 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B5042526766700149A01 /* Custom UI */,
+				CEA4B5072526766700149A01 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CEA4B5042526766700149A01 /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B5052526766700149A01 /* DesignableButton.swift */,
+				CEA4B5062526766700149A01 /* DesignableView.swift */,
+			);
+			path = "Custom UI";
+			sourceTree = "<group>";
+		};
+		CEA4B5072526766700149A01 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B5082526766700149A01 /* TableViewEx.swift */,
+				CEA4B5092526766700149A01 /* XIB.swift */,
+				CEA4B50A2526766700149A01 /* ApplicationEx.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +247,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA4B5112526766800149A01 /* UserPathView.xib in Resources */,
+				CEA4B5102526766800149A01 /* PickTableViewCell.xib in Resources */,
+				CEA4B50B2526766800149A01 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +260,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA4B50F2526766800149A01 /* PickTableViewCell.swift in Sources */,
+				CEA4B5122526766800149A01 /* UserPathView.swift in Sources */,
+				CEA4B50C2526766800149A01 /* UserPathProtocols.swift in Sources */,
+				CEA4B5172526766800149A01 /* ApplicationEx.swift in Sources */,
+				CEA4B50E2526766800149A01 /* Path.swift in Sources */,
+				CEA4B5152526766800149A01 /* TableViewEx.swift in Sources */,
+				CEA4B5142526766800149A01 /* DesignableView.swift in Sources */,
+				CEA4B50D2526766800149A01 /* PickPoint.swift in Sources */,
+				CEA4B5162526766800149A01 /* XIB.swift in Sources */,
+				CEA4B5132526766800149A01 /* DesignableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +407,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftyPath/Info.plist;
+				INFOPLIST_FILE = "SwiftyPath/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -277,6 +418,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hmaserv.com.SwiftyPath;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -291,8 +433,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftyPath/Info.plist;
+				INFOPLIST_FILE = "SwiftyPath/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +444,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hmaserv.com.SwiftyPath;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
