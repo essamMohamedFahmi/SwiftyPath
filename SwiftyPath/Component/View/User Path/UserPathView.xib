@@ -18,13 +18,16 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserPathView" customModule="SwiftyPath" customModuleProvider="target">
             <connections>
                 <outlet property="addPickPointButton" destination="EOH-8X-4W0" id="qSf-CQ-OBH"/>
+                <outlet property="containerStack" destination="rbt-th-lvA" id="3BA-Ax-u5a"/>
                 <outlet property="containerViewHeight" destination="Paj-4u-Qqu" id="23a-Ti-9Ta"/>
                 <outlet property="destinationButton" destination="x8X-Tw-qD8" id="36h-kA-7MN"/>
-                <outlet property="pickPointOptionsStack" destination="mjH-8T-iii" id="e61-2g-4Lb"/>
+                <outlet property="pickStack" destination="mjH-8T-iii" id="6ou-eZ-99L"/>
                 <outlet property="pickTableView" destination="PIy-1c-b01" id="Why-Wf-Wb0"/>
                 <outlet property="pickTableViewHeight" destination="nWa-NJ-8Tu" id="jNf-Qg-fXD"/>
                 <outlet property="removePickPointButton" destination="v2y-oz-f1N" id="tNO-Rf-6pJ"/>
+                <outlet property="rideStack" destination="aVu-fc-366" id="dIe-4E-h4G"/>
                 <outlet property="sourceButton" destination="Bkg-a2-4XX" id="bNQ-cx-85E"/>
+                <outlet property="stepStack" destination="jg4-gs-xud" id="I5p-Rr-Gq0"/>
                 <outlet property="theContentView" destination="iN0-l3-epB" id="6kM-o1-wbu"/>
             </connections>
         </placeholder>
@@ -37,7 +40,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="425" height="150"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rbt-th-lvA">
-                            <rect key="frame" x="10" y="25" width="400" height="100"/>
+                            <rect key="frame" x="15" y="25" width="395" height="100"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="jg4-gs-xud" userLabel="Step Stack">
                                     <rect key="frame" x="0.0" y="5" width="12" height="90"/>
@@ -113,10 +116,10 @@
                                     </constraints>
                                 </stackView>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="aVu-fc-366" userLabel="Ride Stack">
-                                    <rect key="frame" x="22" y="0.0" width="343" height="100"/>
+                                    <rect key="frame" x="22" y="0.0" width="338" height="100"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="38h-Sk-zYz" customClass="DesignableButton" customModule="SwiftyPath" customModuleProvider="target">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="338" height="50"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1n-FO-ylm">
                                                     <rect key="frame" x="0.0" y="17" width="34" height="16.5"/>
@@ -128,7 +131,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bkg-a2-4XX" customClass="DesignableButton" customModule="SwiftyPath" customModuleProvider="target">
-                                                    <rect key="frame" x="42" y="8" width="301" height="34"/>
+                                                    <rect key="frame" x="42" y="8" width="296" height="34"/>
                                                     <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
                                                     <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
                                                     <state key="normal" title="Select Location">
@@ -162,14 +165,14 @@
                                             </constraints>
                                         </view>
                                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PIy-1c-b01">
-                                            <rect key="frame" x="0.0" y="50" width="343" height="0.0"/>
+                                            <rect key="frame" x="0.0" y="50" width="338" height="0.0"/>
                                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" id="nWa-NJ-8Tu"/>
                                             </constraints>
                                         </tableView>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bhr-BF-edZ">
-                                            <rect key="frame" x="0.0" y="50" width="343" height="50"/>
+                                            <rect key="frame" x="0.0" y="50" width="338" height="50"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQS-Na-oEb">
                                                     <rect key="frame" x="0.0" y="17" width="34" height="16.5"/>
@@ -181,7 +184,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8X-Tw-qD8" customClass="DesignableButton" customModule="SwiftyPath" customModuleProvider="target">
-                                                    <rect key="frame" x="42" y="8" width="301" height="34"/>
+                                                    <rect key="frame" x="42" y="8" width="296" height="34"/>
                                                     <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
                                                     <inset key="contentEdgeInsets" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
                                                     <state key="normal" title="Select Location">
@@ -217,7 +220,7 @@
                                     </subviews>
                                 </stackView>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="mjH-8T-iii" userLabel="Pick Stack">
-                                    <rect key="frame" x="375" y="21" width="25" height="58"/>
+                                    <rect key="frame" x="370" y="21" width="25" height="58"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOH-8X-4W0">
                                             <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
@@ -258,7 +261,7 @@
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstItem="rbt-th-lvA" firstAttribute="leading" secondItem="V3h-9c-Ifp" secondAttribute="leading" constant="10" id="6Or-BR-GWR"/>
+                        <constraint firstItem="rbt-th-lvA" firstAttribute="leading" secondItem="V3h-9c-Ifp" secondAttribute="leading" constant="15" id="6Or-BR-GWR"/>
                         <constraint firstAttribute="height" constant="150" id="Paj-4u-Qqu"/>
                         <constraint firstItem="rbt-th-lvA" firstAttribute="centerY" secondItem="V3h-9c-Ifp" secondAttribute="centerY" id="SL3-oK-EQA"/>
                         <constraint firstAttribute="trailing" secondItem="rbt-th-lvA" secondAttribute="trailing" constant="15" id="YJH-kH-nm4"/>

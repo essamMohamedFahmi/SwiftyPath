@@ -12,7 +12,11 @@ public class UserPathView: UIView
     
     @IBOutlet weak var pickTableView: UITableView!
 
-    @IBOutlet weak var pickPointOptionsStack: UIStackView!
+    @IBOutlet weak var containerStack: UIStackView!
+    @IBOutlet weak var stepStack: UIStackView!
+    @IBOutlet weak var rideStack: UIStackView!
+    @IBOutlet weak var pickStack: UIStackView!
+    
     @IBOutlet weak var addPickPointButton: UIButton!
     @IBOutlet weak var removePickPointButton: UIButton!
     
@@ -120,13 +124,15 @@ public class UserPathView: UIView
         let newViewHeight = viewStartHeight + tableViewExpectedHeight
         containerViewHeight.constant = CGFloat(newViewHeight)
 
-        UIView.animate(withDuration: 0.5) { [weak self] in
-            self?.checkAddPickPointButtonStatus()
-            self?.checkRemovePickPointButtonStatus()
-            self?.pickPointOptionsStack.layoutIfNeeded()
+        UIView.animate(withDuration: 0.3) { [weak self] in
+            self?.containerStack.layoutIfNeeded()
             self?.theContentView.layoutIfNeeded()
             self?.delegate?.heightChanged(to: CGFloat(newViewHeight))
         }
+        
+        checkAddPickPointButtonStatus()
+        checkRemovePickPointButtonStatus()
+        containerStack.layoutIfNeeded()
     }
     
     private func checkRemovePickPointButtonStatus()
