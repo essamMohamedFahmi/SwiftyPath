@@ -237,7 +237,7 @@ extension UserPathView: PickTableViewCellDelegate
 
 extension UserPathView
 {
-    func locationSelected(_ location: PickPoint)
+    public func locationSelected(_ location: PickPoint)
     {
         switch currentSelection
         {
@@ -248,12 +248,12 @@ extension UserPathView
         }
     }
     
-    func setSourceLocation(to sourceLocation: PickPoint)
+    public func setSourceLocation(to sourceLocation: PickPoint)
     {
         source = sourceLocation
     }
     
-    func setUserPath(to path: Path)
+    public func setUserPath(to path: Path)
     {
         initalPathSet = false
 

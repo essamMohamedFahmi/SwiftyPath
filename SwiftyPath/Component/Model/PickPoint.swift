@@ -10,9 +10,18 @@ public class PickPoint: NSObject
 {
     // MARK: Properties
     
-    var lat: Double?
-    var lng: Double?
-    var name: String = "Select location"
+    public var lat: Double?
+    public var lng: Double?
+    public var name: String
+    
+    // MARK: Init
+    
+    public init(lat: Double? = nil, lng: Double? = nil, name: String = "Select location")
+    {
+        self.lat = lat
+        self.lng = lng
+        self.name = name
+    }
     
     // MARK: Methods
     
